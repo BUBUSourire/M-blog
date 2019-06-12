@@ -1,3 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul,li {
+    list-style: none;
+}
 body {
     background-color: #1B2141;
+}
+.inner {
+    width: 800px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    margin: 50px auto;
+    padding: 10px;
+}
+ul li {
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+ul li span {
+    font-weight: 700;
 }
