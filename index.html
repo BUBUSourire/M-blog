@@ -12,31 +12,94 @@
 <body>
     <div id="blog">
         <div id="girl">
-                <img src="images/22.jpg" alt="">
+            <img src="images/22.jpg" alt="">
         </div>
         <h2 class="top">Sourire blog</h2>
-        <p class="top">weicome to my world !</p>
+        <p class="top">welcome to my world !</p>
         <div class="inner1">
             <h3>我的第一篇博客</h3><br />
-            <h4>命令的使用</h4><br />
-            <ul>
-                <li>
-                    <span>ls - list - 罗列/列表</span><br />
-                    <p>list directory contents--列出目录内容</p>
-                </li>
-                <li>
-                    <span>cat "打印"</span>
-                    <p>concatenate files and print on the standard output - 在github的使用上用于获取密钥相关的信息</p>
-                </li>
-                <li>
-                    <span>mv - move - </span>
-                    <p>move (rename) files</p>
-                </li>
-                <li>
-                    <span>touch</span>
-                    <p>change file timestamps - 常用于创建文件</p>
-                </li>
-            </ul>
+            <h4>>>命令的使用
+                <<</h4> <br />
+                <ul class="inner-ul">
+                    <li>
+                        <span>ls - list - 罗列/列表</span><br />
+                        <p>list directory contents--列出目录内容</p>
+                    </li>
+                    <li>
+                        <span>cat "打印"</span>
+                        <p>concatenate files and print on the standard output - 在github的使用上用于获取密钥相关的信息</p>
+                    </li>
+                    <li>
+                        <span>mv - move - </span>
+                        <p>move (rename) files</p>
+                    </li>
+                    <li>
+                        <span>touch</span>
+                        <p>change file timestamps - 常用于创建文件</p>
+                    </li>
+                </ul>
+        </div>
+        <div class="inner2">
+            <h3>我的第二篇博客</h3><br />
+            <h4>>>关于HTTP
+                <<</h4> <br />
+                <ul class="inner-ul">
+                    <li>
+                        <span>介绍</span>
+                        <p>HTTP，HyperText Transfer Protocol(超文本传输协议)。是一种运用广泛的网络协议，所有的WWW文件必须遵守这个标准。<br /><a
+                                href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE">具体介绍参考</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span>关于HTTP请求</span>
+                        <p>请求包含三或四个部分：请求行，请求头，（回车），请求体</p>
+                        <ol>
+                            <li>第一部分：动词路径协议/版本</li>
+                            <li>第二部分：<br />
+                                Key1: value1<br />
+                                Key2: value2<br />
+                                Key3: value3<br />
+                                Content-Type: application/x-www-form-urlencoded<br />
+                                Host: www.baidu.com<br />
+                                User-Agent: curl/7.54.0
+                            </li>
+                            <li>第三部分：回车</li>
+                            <li>第四部分：要上传的数据</li>
+                            <li>开发者工具使用：<br />
+                                <img src="images/get.png" alt="" style="width: 700px">
+                            </li>
+                        </ol>
+                    <li>
+                        <span>关于HTTP响应</span>
+                        <p>响应包含四部分，与请求相似</p>
+                        <ol>
+                            <li>第一部分：协议/版本号状态码状态解释</li>
+                            <li>第二部分：<br />
+                                Key1: value1<br />
+                                Key2: value2<br />
+                                Key3: value3<br />
+                                Content-Length: 17931<br />
+                                Content-Type: text/html<br />
+                            </li>
+                            <li>第三部分：回车</li>
+                            <li>第四部分：要下载的内容</li>
+                            <li>开发者工具使用：<br />
+                                <img src="images/get2.png" alt="" style="width: 700px">
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <span>关于curl的使用</span>
+                        <ul>
+                            <li>请求</li>
+                            <li>curl -s -v -- "https://www.baidu.com"</li>
+                            <li>请求上传</li>
+                            <li>curl -X POST -s -v -- "https://www.baidu.com"</li>
+                            <li>curl -X POST -d "1234567890" -s -v -- "https://www.baidu.com"</li>
+                            <li><a href="https://xiedaimala.com/tasks/24ba2b64-6695-4964-b04f-b462987664e9/text_tutorials/f5ae5f86-597b-4a88-88c8-8b76a9131d55">具体介绍参考</a></li>
+                        </ul>
+                    </li>
+                </ul>
         </div>
     </div>
 </body>
